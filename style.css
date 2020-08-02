@@ -56,41 +56,42 @@ body{
     font-weight: bolder; 
     padding-top: 25px; 
   }
-  p{
+
+  .p{
+    line-height: 1.5 ;
+    text-indent: 22px;
     color: #6D8092;
     font-family: Arial;
-    font-size: 30px !important;
-  }
-    .box{
-    margin-top: 60px; 
-    margin-bottom: 60px; 
-    padding: 10px 20px 15px; 
-    color:#6D8092;
-    background-color: white; 
+    font-size: 17px ;
     }
-    @media(max-width: 992px){
-        .navbar-expand-lg{
-        background-color: turquoise !important;
-        }
-        .navbar{
-          max-height: none; 
-          padding: inherit;
-        }
-        .navbar div{
-          margin: inherit; 
-          background-color: white;  
-        }
-        .navbar-brand{
-          padding: 10px !important; 
-        }
+.box{
+margin-top: 60px; 
+margin-bottom: 60px; 
+padding: 10px 20px 15px; 
+color:#6D8092;
+background-color: white; 
+}
+@media(max-width: 992px){
+    .navbar-expand-lg{
+    background-color: turquoise t;
+    }
+    .navbar{
+        max-height: none; 
+        padding: inherit;
+    }
+    .navbar div{
+        margin: inherit; 
+        background-color: white;  
+    }
+    .navbar-brand{
+        padding: 10px !important; 
+    }
         
-        button{
-          margin-right: 30px; 
+    button{
+        margin-right: 30px; 
+    }
+    button:focus { 
+        outline: 1px dotted;
+        outline: 5px auto -webkit-focusring-color;
         }
-        button:focus {
-        
-          outline: 1px dotted;
-          outline: 5px auto -webkit-focusring-color;
-          
-          }
-        }
+    }
