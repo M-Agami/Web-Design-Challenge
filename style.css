@@ -71,6 +71,10 @@ padding: 10px 20px 15px;
 color:#6D8092;
 background-color: white; 
 }
+.table{
+    font-size: 15px; 
+    border-top-color: white
+}
 @media(max-width: 992px){
     .navbar-expand-lg{
     background-color: turquoise t;
